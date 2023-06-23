@@ -7,8 +7,70 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table style="width: 100%; height: 100%">
+    <table style="width: 100%; height: 100%" border>
       <!-- Your code here -->
+		<tr>
+			<!-- 1st row & 1st col -->
+			<td>
+				<table border style="width: 100%">
+					<tr>
+						<th colspan="2">Nested Table 2</th>
+					</tr>
+					<tr>
+						<th>Column 1</th>
+						<th>Column 2</th>
+					</tr>
+					<tr style="text-align: center">
+						<td>abc</td>
+						<td>def</td>
+					</tr>
+				</table>
+			</td>
+			<!-- 1st row & 2nd col -->
+			<td>
+				<table border style="width:100%">
+					<tr>
+						<th>Nested Table 1</th>
+					</tr>
+					<tr style="text-align:center">
+						<td>
+							<ul>
+								<li>List item 1</li>
+								<li>List item 2</li>
+								<li>List item 3</li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<!-- 2nd row & 1st col -->
+			<td>
+				<table border style="width:100%">
+					<tr>
+						<th colspan="2">Nested Table 3</th>
+					</tr>
+					<tr style="text-align:center">
+						<td>
+							<a href="#">Nested Table</a>
+						</td>
+						<td>Demo Continued</td>
+					</tr>
+				</table>
+			</td>
+			<!-- 2nd row & 2nd col -->
+			<td>
+				<table style="width: 100%" border>
+					<tr>
+						<th>Nested Table 4</th>
+					</tr>
+					<tr style="text-align:center;background-color:black;color:white">
+						<td>HTML</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
     </table>
   </body>
 </html>
